@@ -87,7 +87,7 @@ SELECT * FROM Employee_Info;
 
 #------------------------
 # Завдання 7
-#    Cтворити порожню таблицю даних автомобілів.
+#    Створити порожню таблицю даних автомобілів.
 #    Заповнити таблицю даними (id(Autoincrement), марка, модель, об'єм двигуна, ціна, макс. швидкість).
 #------------------------
 
@@ -103,3 +103,34 @@ CREATE TABLE Cars(
 	max_speed double(7,2),
 	PRIMARY KEY(id)
 );
+
+INSERT INTO Cars (brand,country,model,engine_capacity,price,max_speed)
+VALUE ("AC","UK","378 GT Zagato",6162,0,298),
+("AC","UK","Ace",2900,0,0),
+("AC","UK","Cobra",6162,0,278),
+("Acura","Japan","CL",3195,850000,215),
+(("Acura","Japan","CSX",1998,0,200),
+("Acura","Japan","EL",1668,0,0),
+(("Acura","Japan","ILX",2354,2190000,0),
+("Acura","Japan","Integra",1834,0,0),
+(("Acura","Japan","Legend",3206,0,0),
+("Acura","Japan","MDX",2997,8500000,0),
+("Acura","Japan","NSX",3179,0,270),
+("Acura","Japan","RDX",2300,0,209),
+("Acura","Japan","RL",3664,0,215),
+("Acura","Japan","RLX",3476,0,0),
+("Acura","Japan","RSX",1998,0,218),
+("Acura","Japan","SLX",3494,0,175),
+(("Acura","Japan","TL",3206,0,223),
+(("Acura","Japan","TLX",3471,0,0),
+("Acura","Japan","TSX",2354,1150000,228),
+("Acura","Japan","ZDX",3664,1950000,0),
+("Adler","Germany","Diplomat",2916,0,100),
+("Adler","Germany","Trumpf Junior",995,3500000,0),
+("GAC Aion","China","S",0,0,130),
+("GAC Aion","China","S Plus",0,0,130),
+("GAC Aion","China","V",0,0,0),
+("GAC Aion","China","Y",0,0,130),
+("Alfa Romeo","Italy","105/115",1290,0,170),
+("Aston Martin","UK","Virage",5340,0,250),
+("Aston Martin","UK","Vulcan",6999,0,360);
