@@ -23,7 +23,7 @@ CREATE TABLE Employee (
 	PRIMARY KEY(employee_id)
 );
 
-CREATE TABLE Job (
+CREATE TABLE Job(
 	job_id int auto_increment not null,
 	job_name varchar(100),
 	job_salary double(7,2),
@@ -88,7 +88,7 @@ SELECT * FROM Employee_Info;
 #------------------------
 # Завдання 7
 #    Створити порожню таблицю даних автомобілів.
-#    Заповнити таблицю даними (id(Autoincrement), марка, модель, об'єм двигуна, ціна, макс. швидкість).
+#    Заповнити таблицю даними (id(Autoincrement), марка, модель, обєм двигуна, ціна, макс. швидкість).
 #------------------------
 
 DROP TABLE IF EXISTS Cars;
